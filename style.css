@@ -1,8 +1,6 @@
-body {
-background-image: url(/pixel5.png);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+.bg {
+width: 100%;
+position: absolute;
 }
 .color {
   border-radius: 80%;
@@ -29,4 +27,11 @@ background-repeat: no-repeat;
 #clear-board {
   margin: 10px;
   border: 3px solid black;
+  position: relative;
+}
+
+div {
+  position: relative;
+  left: 10px;
+  right: 50px;
 }
