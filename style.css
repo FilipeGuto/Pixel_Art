@@ -1,8 +1,8 @@
-.bg{
-  background-image: url('/pixel4.jpg');
+body{
+  background-image: url(/pixel5.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
 }
 
@@ -10,20 +10,22 @@
   border-radius: 80%;
   border: 3px solid black;
   display: inline-block;
-  padding: 24px;
+  padding: 1.5em;
 }
 
 .pixel {
   display: inline-block;
   border: 3px solid black;
-  width: 40px;
-  height: 40px;
+  width: 2em;
+  height: 2em;
   background-color: white;
   max-width: 250px;
+  right: 100px;
 }
 
 .pixel-board {
   width: 250px;
+  right: 100px;
 }
 
 #clear-board {
