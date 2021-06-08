@@ -26,7 +26,7 @@ color();
 document.getElementById('black').style.backgroundColor = 'black'; 
 document.getElementById('color1').style.backgroundColor = 'peru'; 
 document.getElementById('color2').style.backgroundColor = 'grey'; 
-document.getElementById('color3').style.backgroundColor = 'cadetblue'; 
+document.getElementById('color3').style.backgroundColor = 'BlueViolet'; 
 document.getElementById('color4').style.backgroundColor = 'pink'; 
 document.getElementById('borracha').style.backgroundColor = 'white';
 

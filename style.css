@@ -1,7 +1,9 @@
 body {
-  background-color: LightGray;
+background-image: url(/pixel5.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
-
 .color {
   border-radius: 80%;
   border: 3px solid black;
@@ -17,13 +19,11 @@ body {
   background-color: white;
   max-width: 250px;
   right: 100px;
-  position: relative;
 }
 
 .pixel-board {
-  width: 100px;
+  width: 250px;
   right: 100px;
-  position: absolute;
 }
 
 #clear-board {
