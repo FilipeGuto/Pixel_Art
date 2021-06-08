@@ -1,9 +1,5 @@
-body{
-  background-image: url(/pixel5.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+body {
+  background-color: LightGray;
 }
 
 .color {
@@ -21,11 +17,13 @@ body{
   background-color: white;
   max-width: 250px;
   right: 100px;
+  position: relative;
 }
 
 .pixel-board {
-  width: 250px;
+  width: 100px;
   right: 100px;
+  position: absolute;
 }
 
 #clear-board {
