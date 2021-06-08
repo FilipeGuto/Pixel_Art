@@ -1,5 +1,5 @@
 function createBox() {
-  const largura = 5;
+  const largura = 10;
   const comprimento = 5;
   const base = largura * comprimento;
 
