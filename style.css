@@ -18,8 +18,8 @@ top: 20px;
 .pixel {
   display: inline-block;
   border: 3px solid black;
-  width: 2em;
-  height: 2em;
+  width: 1.5em;
+  height: 1.5em;
   background-color: white;
   max-width: 250px;
   right: 100px;
