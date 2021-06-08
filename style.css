@@ -7,6 +7,7 @@ position: absolute;
   border: 3px solid black;
   display: inline-block;
   padding: 1.5em;
+top: 20px;
 }
 
 .pixel {
@@ -17,6 +18,7 @@ position: absolute;
   background-color: white;
   max-width: 250px;
   right: 100px;
+  top: 20px;
 }
 
 .pixel-board {
@@ -28,6 +30,8 @@ position: absolute;
   margin: 10px;
   border: 3px solid black;
   position: relative;
+  left: 10px;
+  top: 20px;
 }
 
 div {
