@@ -23,10 +23,12 @@ function color() {
 }
 color();
 
-document.getElementById('black').style.backgroundColor = 'black';
-document.getElementById('slateBlue').style.backgroundColor = 'slateblue';
-document.getElementById('grey').style.backgroundColor = 'grey';
-document.getElementById('cadetBlue').style.backgroundColor = 'cadetblue';
+document.getElementById('black').style.backgroundColor = 'black'; 
+document.getElementById('color1').style.backgroundColor = 'peru'; 
+document.getElementById('color2').style.backgroundColor = 'grey'; 
+document.getElementById('color3').style.backgroundColor = 'cadetblue'; 
+document.getElementById('color4').style.backgroundColor = 'pink'; 
+document.getElementById('borracha').style.backgroundColor = 'white';
 
 const classPixel = document.querySelectorAll('.pixel');
 function altColor() {
