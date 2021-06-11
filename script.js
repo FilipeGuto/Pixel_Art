@@ -1,10 +1,10 @@
 function createBox() {
-  const largura = 12;
-  const comprimento = 8;
+  const largura = 10;
+  const comprimento = 10;
   const base = largura * comprimento;
 
   for (let index = 0; index < base; index += 1) {
-    const div = document.createElement('div');
+    const div = document.createElement('p');
     const pai = document.querySelector('#pixel-board');
     div.className = 'pixel';
     pai.appendChild(div);
@@ -27,7 +27,7 @@ document.getElementById('black').style.backgroundColor = 'black';
 document.getElementById('color1').style.backgroundColor = 'peru'; 
 document.getElementById('color2').style.backgroundColor = 'grey'; 
 document.getElementById('color3').style.backgroundColor = 'BlueViolet'; 
-document.getElementById('color4').style.backgroundColor = 'pink'; 
+document.getElementById('color4').style.backgroundColor = 'HotPink';
 document.getElementById('borracha').style.backgroundColor = 'white';
 
 const classPixel = document.querySelectorAll('.pixel');
